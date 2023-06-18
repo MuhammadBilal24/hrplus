@@ -7,10 +7,7 @@ use DB;
 
 class LocalController extends Controller
 {
-    public function dashboardpage()
-    {
-        return view('dashboard');
-    }
+    
     // Employees
     public function employeespage()
     {
@@ -28,5 +25,6 @@ class LocalController extends Controller
         DB::table('employees')->insert($data);
         return redirect('employees');
     }
+    
 
 }
