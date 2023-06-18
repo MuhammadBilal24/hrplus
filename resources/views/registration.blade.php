@@ -91,10 +91,10 @@
             <div class="card-body">
               <form role="form" action="/newUser/regiteration" method="post">
                 @if(Session::has('success'))
-                <div class="alert alert-success">{{Session::get('success')}}</div>
+                <div class="alert alert-success" style="color:white">{{Session::get('success')}}</div>
                 @endif
                 @if(Session::has('fail'))
-                <div class="alert alert-danger">{{Session::get('fail')}}</div>
+                <div class="alert alert-danger" style="color:white">{{Session::get('fail')}}</div>
                 @endif  
                 @csrf
                 <div class="mb-3">

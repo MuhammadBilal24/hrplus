@@ -94,10 +94,10 @@
             <div class="card-body">
               <form role="form" action="/user/checking" method="post" id="form">
                 @if(Session::has('success'))
-                <div class="alert alert-success" id="welcome">Welcome Back</div>
+                <div class="alert alert-success" style="color:white" id="welcome">Welcome Back</div>
                 @endif 
                 @if(Session::has('fail'))
-                  <div class="alert alert-danger">{{Session::get('fail')}}</div>
+                  <div class="alert alert-danger" style="color:white">{{Session::get('fail')}}</div>
                 @endif 
                 @csrf
                 <div class="mb-3">
