@@ -19,6 +19,7 @@
   <link href="{{asset('assets/css/nucleo-svg.css')}}" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="{{asset('assets/css/argon-dashboard.css?v=2.0.4')}}" rel="stylesheet" />
+  
 </head>
 
 <body class="g-sidenav-show bg-gray-100">
@@ -43,7 +44,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="">
+          <a class="nav-link " href="/employees">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
             </div>
