@@ -103,7 +103,7 @@
         </div>
       </div>
        <div class="col-12 mt-4">
-       <div class="card mb-4">
+        <div class="card mb-4">
             <div class="card-header pb-0">
               <h6>Authors table
               <button style="float:right" class="btn btn-primary">Add</button>
